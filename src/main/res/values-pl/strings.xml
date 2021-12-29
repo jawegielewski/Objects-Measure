@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="new_measurement">NOWY POMIAR</string>
+    <string name="settings">USTAWIENIA</string>
+    <string name="about">INFO</string>
+    <string name="contact">KONTAKT</string>
+    <string name="exit">WYJŚCIE</string>
+
+    <string name="error">Błąd: </string>
+
+    <string name="start_calibration">Uruchom kalibrację (1/5)</string>
+    <string name="calibration">Kalibracja (2/5)</string>
+    <string name="ben_detecting">Wykrywanie wzorca (3/5)</string>
+    <string name="image_capture">Przechwycenie obrazu (4/5)</string>
+    <string name="object_measurement">Wymiarowanie obiektu (5/5)</string>
+
+    <string name="recognition_in_progress">TRWA WYKRYWANIE WZORCA...</string>
+    <string name="confirmation">Potwierdzenie</string>
+    <string name="recognition">Czy wykryto?</string>
+    <string name="label_ok">TAK</string>
+    <string name="label_no">NIE</string>
+
+    <string name="top">GÓRA</string>
+    <string name="left">LEWO</string>
+    <string name="right">PRAWO</string>
+    <string name="bottom">DÓŁ</string>
+
+    <string name="height_info">"Wysokość[px]: %1$s; Wysokość[%2$s]: %3$s"</string>
+    <string name="width_info">"Szerokość[px]: %1$s; Szerokość[%2$s]: %3$s"</string>
+    <string name="height_makes">"Wysokość stanowi %1$s wzorca"</string>
+    <string name="width_makes">"Szerokość stanowi %1$s wzorca"</string>
+
+    <string name="capture_image">"Przechwyć obraz"</string>
+    <string name="cd_recognized">"Wykryto obiekt!"</string>
+
+    <string name="skip_ad">"Pomiń reklamę"</string>
+    <string name="pass">"Hasło"</string>
+    <string name="provide_pass">"Wprowadź hasło"</string>
+
+    <string name="pref_cat_recognition">"Rozpoznawanie"</string>
+    <string name="pref_cat_other">"Inne"</string>
+    <string name="units">"Jednostka"</string>
+    <string name="units_summary">"Wybierz jednostkę, której chcesz używać."</string>
+    <string name="units_array">"unitsArray"</string>
+    <string name="units_values">"unitsValues"</string>
+    <string name="auth_title">"Brak reklam"</string>
+    <string name="auth_summary">"Opcja dla osób wspierających. Pozwala na używanie programu bez reklam."</string>
+    <string name="grid_title">"Miarka"</string>
+    <string name="grid_summary">"Wyświetlanie miarki na obrazie z kamery w ostatnim etapie."</string>
+    <string name="inch">cale</string>
+    <string name="cm">cm</string>
+
+    <string name="if_move">"Kliknij w reklamę. Jeśli przeniesie do sklepu naciśnij BACK na telefonie."</string>
+
+    <string name="default_benchmark">"Płyta CD"</string>
+    <string name="circle">"Kształt okrągły"</string>
+    <string name="line">"Kształt liniowy"</string>
+    <string name="find_circle">"Jeśli szukasz okrągłych kształtów"</string>
+    <string name="find_line">"Jeśli kształt może być określony przez linię"</string>
+    <string name="recognition_type">"Typ rozpoznania"</string>
+    <string name="rec_type">"Typ:"</string>
+    <string name="set_benchmark">"Określ wzór"</string>
+    <string name="benchmark">"Wzorzec: "</string>
+    <string name="benchmark_list">"Lista wzorców"</string>
+    <string name="ben_hint_name">"nazwa"</string>
+    <string name="ben_hint_size">"rozmiar [cm]"</string>
+    <string name="add_ben">"Dodaj wzorzec"</string>
+    <string name="stage_one">Etap pierwszy</string>
+    <string name="stage_two">Etap drugi</string>
+    <string name="stage_three">Etap trzeci</string>
+    <string name="stage_four">Etap czwarty</string>
+    <string name="stage_five">Etap piąty</string>
+    <string name="set_rec_first">Określ typ rozpoznania</string>
+    <string name="no_del">Ten wzorzec nie może być usunięty</string>
+    <string name="del">Usunięto wzorzec: </string>
+    <string name="no_add">Określ nazwę i rozmiar!</string>
+    <string name="add">Dodano wzorzec</string>
+    <string name="load_ad">Proszę włączyć Internet</string>
+    <string name="checkbox_show">Nie pokazuj ponownie</string>
+    <string name="info_start_okrag"><![CDATA[Pamiętaj aby trzymać smartfon w tej samej pozycji na etapie 3 i 4.]]></string>
+	<string name="info_start_linia"><![CDATA[Pamiętaj aby trzymać smartfon w tej samej pozycji na etapie 3 i 4.\n\nUpewnij się, że pozycja dotyku jest zgodna z rysowanym na obrazie prostokątem. Użyj obszarów tekstowych poniżej aby je ustawić (wartości od 0-100).]]></string>
+	<string name="click_ad_please">Aby cofnąć etap, zamknij ją jeszcze raz.</string>
+    <string name="delete">Usunąć?</string>
+    <string name="set_pxcm">Ustaw najpierw wartość: </string>
+    <string name="set_unit_first">Ustal jednostkę w ustawieniach.</string>
+
+    <string name="help">Pomoc</string>
+    <string name="help_desc"><![CDATA[<br><b>Etap 0</b><br>Ten etap pojawia się tylko raz (później można wywołać w opcjach). Chodzi o dostosowanie powierzchni dotyku z rysowaną powierzchnią na ekranie zarówno w pionie jak i w poziomie.<br><br><b>Etap 1</b><br>Należy określić wykorzystywany do pomiarów wzór.<br><br><b>Etap 2</b><br>Badaną rzecz ujmij w linii tak, aby mieściła się idealnie w ich obrębie.<br><br><b>Etap 3</b><br>Ostateczny etap. Należy ustawić pasek na obrazie z kamery aby pokrywał się z mierzonym obiektem.<br><br><u>Sterowanie</u><br>Obraz z kamery podzielony jest na pół w pionie i poziomie. Dla wygody każda strona (lewo/prawo i góra/dół od środka) posiada swoją część paska. Połówkami manipulujesz więc niezależnie.]]></string>
+
+
+
+    <string name="app_name">Real Measure</string>
+    <string name="title_activity_info">Info</string>
+    <string name="funkcje_programu">Real Measure jest aplikacją, która pozwala na wyznaczenie rzeczywistych, przybliżonych wymiarów różnych obiektów (np. wymiarów człowieka). Wykorzystywany jest do tego celu obraz z kamery oraz dowolny punkt odniesienia, którego znasz wymiary.\n </string>
+    <string name="info_dodatkowe"><![CDATA[(1)<br>Aplikacja została napisana przez <b>Jakuba Węgielewskiego</b>.<br><br>(2)<br></br>Projekty, które wniosły swój wkład w powstanie tej aplikacji:<br><br>&#9900; Biblioteka OpenCV Android <a href="https://opencv.org/platforms/android/">https://opencv.org/platforms/android/</a><br><br>&#9900; Przekształcenia graficzne <a href="https://github.com/koral--/android-gif-drawable">https://github.com/koral--/android-gif-drawable</a><br><br>&#9900; Podziękowanie za wsparcie <a href="https://github.com/hotchemi/Android-Rate">https://github.com/hotchemi/Android-Rate</a><br><br>&#9900; Operacje lambda <a href="https://github.com/evant/gradle-retrolambda">https://github.com/evant/gradle-retrolambda</a><br><br>&#9900; Konfigurowalne widgety typu SeekBar <a href="https://github.com/warkiz/IndicatorSeekBar">https://github.com/warkiz/IndicatorSeekBar</a><br><br>(3)<br>Uprawnienia, których wymaga program są wykorzystywane w celu lokalnego użycia komponentów przez użytkownika oraz trafniejszego doboru reklam.<br>]]></string>
+    <string name="action_settings">Ustawienia</string>
+
+    <string name="rate_dialog_message">Jeśli podoba Ci się ta aplikacja czy poświęciłbyś chwilę aby ją ocenić? Dziękuję za Twoje wsparcie!</string>
+	<string name = "adjust_horizontal">DOSTOSUJ POZIOMO</string>
+    <string name = "adjust_vertical">DOSTOSUJ PIONOWO</string>
+    <string name = "adjust_x">dostosuj x (0-100)</string>
+    <string name = "adjust_y_0_100">dostosuj y (0-100)</string>
+    <string name = "hide">schowaj</string>
+    <string name = "hide_dialog_title">Info</string>
+    <string name = "yes">tak</string>
+    <string name = "no">nie</string>
+	<string name = "stage_zero">Etap zero</string>
+	<string name = "calibration_title">Kalibracja</string>
+	<string name = "calibration_summary">Ustaw zgodność dotyku z rysowaną powierzchnią.</string>
+	<string name = "stage_zero_confirmation"><![CDATA[Upewnij się, że schodząc do środka prostokąt przesuwa się o taką samą odległość z każdej ze stron.\n\nCzy chcesz przejść dalej?]]></string>
+    <string name = "stage_zero_dialog">Modyfikuj wartość suwaków tak, aby przemieszczając prostokąt po ekranie, obydwie jego części (pion - góra/dół i poziom - lewo/prawo) zerowały się dla drugiej przeciwnej strony na środku.\n\n\nBrak zmian skutkować będzie dysproporcją między pozycją dotyku a rysowaną powierzchnią. Zgodność musi być zachowana na środku.</string>
+    <string name = "font_title">Czcionka</string>
+    <string name = "font_summary">Wybierz czcionkę aplikacji.</string>
+    <string name = "menu">Menu</string>
+    <string name = "main_activity">Okno główne</string>
+    <string name = "settings_in_menu">Ustawienia</string>
+    <string name = "about_in_menu">Info</string>
+    <string name = "exit_in_menu">Wyjście</string>
+    <string name = "do_not_change_subject">Proszę nie zmieniać tematu emaila.</string>
+    <string name = "no_email_clients">Brak klienta emaila.</string>
+    <string name = "review_from_client">Opinia od użytkownika RealMeasure</string>
+    <string name = "those_indicators_were_already_set">Wskaźniki były wcześniej ustawiane</string>
+    <string name = "title_activity_stages">Etapy</string>
+    <string name = "stage_0">Etap 0</string>
+    <string name = "stage_1">Etap 1</string>
+    <string name = "stage_2">Etap 2</string>
+    <string name = "stage_3">Etap 3</string>
+    <string name = "instruction">Instrukcja etapu 2</string>
+    <string name="stage_two_info_desc">Opakuj punkt odniesienia białym prostokątem. Co ważne, wystarczy że opakujesz tylko jedną orientację (poziomą lub pionową).\n\nTutaj oraz na ostatnim etapie korzysta się z parametrów kalibracji z etapu zero.</string>
+    <string name="benchmark_not_drawn">Nie określono wielkości punktu odniesienia. Czy na pewno chcesz przejść do innego widoku?</string>
+    <string name="hide_dialog_title_alert">Alert</string>
+    <string name="alert_pxcm_too_small">Nie określono wielkości punktu odniesienia w etapie 2</string>
+    <string name="pxcm_ok_which_orientation_is_correct">Wielkość punktu odniesienia jest poprawna. Wzorcem długości jest %1$s</string>
+    <string name="horizontal">poziom</string>
+    <string name="vertical">pion</string>
+    <string name="stage_three_dialog">Na podstawie zdjęcia z punktem odniesienia wykonanego w etapie 2 możesz teraz mierzyć inne obiekty.\n\nRozmiar oraz wybór skali jednostki pod obrazem z kamery (widok przewijany).</string>
+    <string name="benchmark_deleted">Wzorzec usunięto</string>
+    <string name="centimetres">centymetry</string>
+    <string name="decimetres">decymetry</string>
+    <string name="metres">metry</string>
+    <string name="pref_cat_performance">Wydajność</string>
+    <string name="camera_resolution">Rozdzielczość kamery</string>
+    <string name="camera_resolution_summary">Ustaw max. rozdzielczość kamery</string>
+    <string name="lowest">najniższa</string>
+    <string name="low">niska</string>
+    <string name="medium">średnia</string>
+    <string name="high">wysoka</string>
+</resources>

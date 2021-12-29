@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:tools = "http://schemas.android.com/tools"
+		android:orientation = "vertical"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		android:layout_marginTop = "5dp"
+		android:layout_marginBottom = "5dp"
+		android:padding="15dp"
+		android:layout_gravity = "center_vertical"
+		android:id = "@+id/tabLayzzout"
+		android:background = "@drawable/border_semi_trans">
+
+	<LinearLayout
+			android:id = "@+id/LL1"
+			android:layout_width = "match_parent"
+			android:layout_height = "match_parent"
+			android:layout_above = "@+id/LL2"
+
+			android:orientation = "vertical">
+
+		<TextView
+				android:id = "@+id/textView15"
+				android:layout_gravity = "center"
+				android:layout_marginTop = "15dp"
+				android:layout_width = "wrap_content"
+				android:layout_height = "wrap_content"
+				android:text = "@string/benchmark_list"
+				android:textAppearance="@style/CalcResultStyle"
+				android:textSize = "24sp"/>
+
+		<ListView
+				android:id = "@+id/listView1"
+				android:layout_width = "match_parent"
+				android:layout_height = "match_parent"
+				android:headerDividersEnabled="true"
+				android:footerDividersEnabled="true"
+				android:divider="#ffffff"
+				android:layout_margin="5dp"
+				android:dividerHeight="1dp"/>
+
+	</LinearLayout>
+	<LinearLayout
+			android:id = "@+id/LL2"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:layout_above = "@+id/button2">
+
+		<com.google.android.material.textfield.TextInputLayout
+				android:id = "@+id/input_layout_email"
+				android:layout_width = "0sp"
+				android:layout_weight = "1"
+				android:layout_height = "wrap_content">
+
+			<EditText
+					android:id = "@+id/editText"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textAppearance="@style/CalcResultStyle"
+					android:textSize = "20sp"
+					android:hint = "@string/ben_hint_name"/>
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+				android:id = "@+id/input_layout_email2"
+				android:layout_width = "0sp"
+				android:layout_weight = "1"
+				android:layout_height = "wrap_content">
+
+			<EditText
+					android:id = "@+id/editText2"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:inputType = "number"
+					android:textAppearance="@style/CalcResultStyle"
+					android:textSize = "20sp"
+					android:hint = "@string/ben_hint_size"/>
+		</com.google.android.material.textfield.TextInputLayout>
+	</LinearLayout>
+
+	<Button
+			android:id = "@+id/button2"
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:padding = "10dp"
+			android:layout_alignParentBottom = "true"
+			android:layout_centerHorizontal = "true"
+			android:background = "@drawable/button_selector"
+			android:textAppearance="@style/CalcResultStyle"
+			android:textSize = "20sp"
+			android:text = "@string/add_ben"
+			tools:gravity = "center"/>
+</RelativeLayout>

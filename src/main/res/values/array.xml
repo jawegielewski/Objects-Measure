@@ -1,0 +1,52 @@
+<resources>
+
+
+    <string-array name="unitsArray" translatable="false">
+        <item>@string/cm</item>
+        <item>@string/inch</item>
+    </string-array>
+
+    <string-array name="unitsValues" translatable="false">
+        <item>@string/cm</item>
+        <item>@string/inch</item>
+    </string-array>
+
+    <string-array name="resolutionArray" translatable="false">
+        <item>@string/lowest</item>
+        <item>@string/low</item>
+        <item>@string/medium</item>
+        <item>@string/high</item>
+    </string-array>
+
+    <string-array name="resolutionValues" translatable="false">
+        <item>@string/lowest</item>
+        <item>@string/low</item>
+        <item>@string/medium</item>
+        <item>@string/high</item>
+    </string-array>
+
+
+
+    <string-array name="gridArray" translatable="false">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+
+    <string-array name="gridValues" translatable="false">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+
+    <string-array name="fontArray" translatable="false">
+        <item>Arial</item>
+        <item>Ginger</item>
+    </string-array>
+
+    <string-array name="fontValues" translatable="false">
+        <item>Arial</item>
+        <item>Ginger</item>
+    </string-array>
+
+
+
+</resources>

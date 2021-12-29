@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_stage_zero"
+        android:icon="@drawable/zero"
+        android:title="@string/stage_0" />
+    <item
+        android:id="@+id/navigation_stage_one"
+        android:icon="@drawable/one"
+        android:title="@string/stage_1" />
+    <item
+        android:id="@+id/navigation_stage_two"
+        android:icon="@drawable/two"
+        android:title="@string/stage_2" />
+    <item
+        android:id="@+id/navigation_stage_three"
+        android:icon="@drawable/three"
+        android:title="@string/stage_3" />
+</menu>

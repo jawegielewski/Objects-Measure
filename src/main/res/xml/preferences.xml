@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_cat_recognition">
+        <ListPreference
+
+            android:entries="@array/unitsArray"
+            android:entryValues="@array/unitsValues"
+            android:icon="@null"
+            android:key="unit"
+            android:summary="@string/units_summary"
+            android:title="@string/units"
+            android:defaultValue="@string/cm"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_cat_performance">
+        <ListPreference
+            android:defaultValue="@string/medium"
+            android:entries="@array/resolutionArray"
+            android:entryValues="@array/resolutionValues"
+            android:icon="@null"
+            android:key="resolution"
+            android:summary="@string/camera_resolution_summary"
+            android:title="@string/camera_resolution" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="other"
+        android:title="@string/pref_cat_other">
+        <pl.jawegiel.mierzenieopencv.AuthPreference
+            android:defaultValue="1"
+            android:dialogMessage="@string/provide_pass"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:key="pass"
+            android:layout="@layout/preference_auth"
+            android:selectAllOnFocus="true"
+            android:summary="@string/auth_summary"
+            android:title="@string/auth_title" />
+
+        <ListPreference
+            android:defaultValue="@string/yes"
+            android:entries="@array/gridArray"
+            android:entryValues="@array/gridValues"
+            android:icon="@null"
+            android:key="grid"
+            android:summary="@string/grid_summary"
+            android:title="@string/grid_title" />
+
+        <ListPreference
+            android:defaultValue="Arial"
+            android:entries="@array/fontArray"
+            android:entryValues="@array/fontValues"
+            android:icon="@null"
+            android:key="font"
+            android:summary="@string/font_summary"
+            android:title="@string/font_title" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

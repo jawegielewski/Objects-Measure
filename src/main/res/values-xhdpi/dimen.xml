@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">3dp</dimen>
+    <dimen name="padding">-10dp</dimen>
+    <dimen name="text_size_new_measurement">26sp</dimen>
+    <dimen name="text_size_rest">20sp</dimen>
+    <dimen name="text_size_bottom_buttons">16sp</dimen>
+    <dimen name="margin_for_image_view">10dp</dimen>
+    <dimen name="camera_view_height">360dp</dimen>
+    <dimen name="padding_of_button_start">5dp</dimen>
+    <dimen name="margin_top_of_bar">5dp</dimen>
+    <dimen name="height_of_checkbox">150dp</dimen>
+</resources>

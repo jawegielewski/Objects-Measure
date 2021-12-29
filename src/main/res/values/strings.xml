@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="new_measurement">NEW MEASUREMENT</string>
+    <string name="settings">SETTINGS</string>
+    <string name="about">ABOUT</string>
+    <string name="contact">CONTACT</string>
+    <string name="exit">EXIT</string>
+
+    <string name="error">Error: </string>
+
+    <string name="start_calibration">Start calibration (1/5)</string>
+    <string name="calibration">Calibration (2/5)</string>
+    <string name="ben_detecting">Benchmark detecting (3/5)</string>
+    <string name="image_capture">Image capture (4/5)</string>
+    <string name="object_measurement">Object measurement (5/5)</string>
+
+    <string name="recognition_in_progress">BENCHMARK RECOGNITION...</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="recognition">Is it correct?</string>
+    <string name="label_ok">YES</string>
+    <string name="label_no">NO</string>
+
+    <string name="top">TOP</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="bottom">BOTTOM</string>
+
+    <string name="height_info">"Height[px]: %1$s; Height[%2$s]: %3$s"</string>
+    <string name="width_info">"Width[px]: %1$s; Width[%2$s]: %3$s"</string>
+    <string name="height_makes">"Height makes %1$s; of benchmark"</string>
+    <string name="width_makes">"Width makes %1$s; of benchmark"</string>
+
+    <string name="capture_image">"Capture image"</string>
+    <string name="cd_recognized">"Object recognized!"</string>
+
+    <string name="skip_ad">"Skip the ad"</string>
+    <string name="pass">"Password"</string>
+    <string name="provide_pass">"Provide a password"</string>
+
+    <string name="pref_cat_recognition">"Recognition"</string>
+    <string name="pref_cat_other">"Other"</string>
+    <string name="units">"Units"</string>
+    <string name="units_summary">"Select the kind of units you want to use."</string>
+    <string name="units_array">"unitsArray"</string>
+    <string name="units_values">"unitsValues"</string>
+    <string name="auth_title">"No ads"</string>
+    <string name="auth_summary">"Option for contributors. Allows you to use the app without ads."</string>
+    <string name="grid_title">"Measure"</string>
+    <string name="grid_summary">"Show measure on image from camera in the last stage."</string>
+    <string name="inch">inch</string>
+    <string name="cm">cm</string>
+
+    <string name="if_move">"Click the ad. If moved into Google Play push BACK button on your phone."</string>
+
+    <string name="default_benchmark">"CD plate"</string>
+    <string name="circle">"Circle"</string>
+    <string name="line">"Line"</string>
+    <string name="find_circle">"If you look for round chapes"</string>
+    <string name="find_line">"If the shape can be determined by a line"</string>
+    <string name="recognition_type">"Recognition type"</string>
+    <string name="rec_type">"Type:"</string>
+    <string name="set_benchmark">"Set benchmark"</string>
+    <string name="benchmark">"Benchmark: "</string>
+    <string name="benchmark_list">"Benchmark list"</string>
+    <string name="ben_hint_name">"name"</string>
+    <string name="ben_hint_size">"size [cm]"</string>
+    <string name="add_ben">"Add benchmark"</string>
+    <string name="stage_one">Stage one</string>
+    <string name="stage_two">Stage two</string>
+    <string name="stage_three">Stage three</string>
+    <string name="stage_four">Stage four</string>
+    <string name="stage_five">Stage five</string>
+    <string name="set_rec_first">Set recognition type</string>
+    <string name="no_del">This benchmark cannot be removed</string>
+    <string name="del">Benchmark deleted: </string>
+    <string name="no_add">Set name and size!</string>
+    <string name="add">Benchmark added</string>
+    <string name="load_ad">Please turn on Internet</string>
+    <string name="checkbox_show">Do not show again</string>
+    <string name="info_start_okrag"><![CDATA[Remember to keep the phone on the same position during stage 3 and 4.]]></string>
+    <string name="info_start_linia"><![CDATA[Remember to keep the phone on the same position during stage 3 and 4.\n\nMake sure that touch position corresponds with rectangle drawn on screen. Use text ares below to set correct value (0 - 100).]]></string>
+    <string name="click_ad_please">Close an ad again to go back to previous stage.</string>
+    <string name="delete">Delete?</string>
+    <string name="set_pxcm">Set the value first: </string>
+    <string name="set_unit_first">Set the unit in settings.</string>
+
+    <string name="help">Help</string>
+    <string name="help_desc"><![CDATA[<br><b>Stage 0</b><br>This stage appears only once (later you can show this in options menu). It is about adjusting point of touch with surface drawn on screen both in vertical and horizontal.<br><br><b>Stage 1</b><br>Pattern used to make measurements needed.<br><br><b>Stage 2</b><br>Put the tested object in a line so that it fits perfectly within their range.<br><br><b>Stage 3</b><br>Final step. You need to set bar on the screen in a way it corresponds with measured object.<br><br><u>Control</u><br>Image from camera is divided on half in vertical and horizontal. Every side (left/right & top/bottom) have its own part of bar. You manipulate those halves independently.]]></string>
+
+
+    <string name="app_name">Real Measure</string>
+    <string name="title_activity_info">Info</string>
+    <string name="funkcje_programu">Real Measure is an app that allows to show real measurements of many objects (e.g. human height). To do this an app uses image from camera and custom benchmark that you know the size.\n </string>
+    <string name="info_dodatkowe"><![CDATA[(1)<br>App has been written by <b>Jakub Wegielewski</b>.<br><br>(2)<br></br>Projects that contributed into this app:<br><br>&#9900; OpenCV Android library <a href="https://opencv.org/platforms/android/">https://opencv.org/platforms/android/</a><br><br>&#9900; Graphic transformation <a href="https://github.com/koral--/android-gif-drawable">https://github.com/koral--/android-gif-drawable</a><br><br>&#9900; Thanks for support <a href="https://github.com/hotchemi/Android-Rate">https://github.com/hotchemi/Android-Rate</a><br><br>&#9900; Lambda operation <a href="https://github.com/evant/gradle-retrolambda">https://github.com/evant/gradle-retrolambda</a><br><br>&#9900; Custom widgets <a href="https://github.com/warkiz/IndicatorSeekBar">https://github.com/warkiz/IndicatorSeekBar</a><br><br>(3)<br>Authorization that this app needs are utilized only for local use and for more accurate ads for user.<br>]]></string>
+    <string name="action_settings">Settings</string>
+
+    <string name="rate_dialog_message">If you like this app would you mind to give me a second and rate it? Thank you for your support!</string>
+    <string name = "adjust_horizontal">ADJUST HORIZONTAL</string>
+    <string name = "adjust_vertical">ADJUST VERTICAL</string>
+    <string name = "adjust_x">adjust x (0-100)</string>
+    <string name = "adjust_y_0_100">adjust y (0-100)</string>
+    <string name = "hide">hide</string>
+    <string name = "hide_dialog_title">Info</string>
+    <string name = "yes">yes</string>
+    <string name = "no">no</string>
+    <string name = "stage_zero">Step zero</string>
+    <string name = "calibration_title">Calibration</string>
+    <string name = "calibration_summary">Set the accordance of drawn object and touch position.</string>
+    <string name = "stage_zero_confirmation"><![CDATA[Make sure when you move toward center the rectangle moves the same distance on every side.\n\nDo you want to move forward?]]></string>
+    <string name = "stage_zero_dialog">Modify value of the sliders to make the rectangle drawn on screen zero for opposite side (vertical -top/bottom, horizontal - left/right).\n\n\nNo change will result in a disproportion between the touch position and the surface being drawn. Accordance must be kept in center point.</string>
+    <string name = "font_title">Font</string>
+    <string name = "font_summary">Choose application\'s font.</string>
+    <string name = "menu">Menu</string>
+    <string name = "main_activity">Main activity</string>
+    <string name = "settings_in_menu">Settings</string>
+    <string name = "about_in_menu">About</string>
+    <string name = "exit_in_menu">Exit</string>
+    <string name = "do_not_change_subject">Please do not change subject of email.</string>
+    <string name = "no_email_clients">No email\'s clients.</string>
+    <string name = "review_from_client">Review from RealMeasure\'s user</string>
+    <string name = "those_indicators_were_already_set">Indicators were already set before</string>
+    <string name = "title_activity_stages">Stages</string>
+    <string name = "stage_0">Stage 0</string>
+    <string name = "stage_1">Stage 1</string>
+    <string name = "stage_2">Stage 2</string>
+    <string name = "stage_3">Stage 3</string>
+    <string name = "instruction">Stage 2 instruction</string>
+    <string name="stage_two_info_desc">Wrap your benchmark on white rectangle. What\'s important you only need to have at least one orientation with boundaries (horizontal or vertical).\n\nHere and in the last stage are where the calibration parameters from stage zero come into play.</string>
+    <string name="benchmark_not_drawn">Size of benchmark is not set. Do you really want to move to another view?</string>
+    <string name="hide_dialog_title_alert">Alert</string>
+    <string name="alert_pxcm_too_small">Size of benchmark was not set in stage 2</string>
+    <string name="pxcm_ok_which_orientation_is_correct">Size of benchmark is set. The pattern of size is %1$s</string>
+    <string name="horizontal">horizontal</string>
+    <string name="vertical">vertical</string>
+    <string name="stage_three_dialog">Based on image with benchmark taken in stage 2 you can now measure other objects.\n\nSize and unit scale under the preview from camera (scrollable view).</string>
+    <string name="benchmark_deleted">Benchmark deleted</string>
+    <string name="centimetres">centimetres</string>
+    <string name="decimetres">decimetres</string>
+    <string name="metres">metres</string>
+    <string name="pref_cat_performance">Performance</string>
+    <string name="camera_resolution">Camera resolution</string>
+    <string name="camera_resolution_summary">Set max camera resolution</string>
+    <string name="lowest">lowest</string>
+    <string name="low">low</string>
+    <string name="medium">medium</string>
+    <string name="high">high</string>
+</resources>

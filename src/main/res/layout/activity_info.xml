@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAppName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_for_image_view"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/app_name"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@mipmap/ic_launcher_no_background"
+                android:textAppearance="@style/CalcResultStyle" />
+
+            <TextView
+                android:id="@+id/tvAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/app_name"
+                android:textAppearance="@style/CalcResultStyle"
+                android:textSize="@dimen/text_size_rest" />
+
+            <TextView
+                android:id="@+id/tvAppFeatures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="@dimen/margin_for_image_view"
+                android:layout_marginBottom="20dp"
+                android:text="@string/funkcje_programu"
+                android:textAppearance="@style/CalcResultStyle"
+                android:textSize="@dimen/text_size_rest" />
+
+            <TextView
+                android:id="@+id/tvAppDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvAppFeatures"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/info_dodatkowe"
+                android:textAppearance="@style/CalcResultStyle"
+                android:textSize="@dimen/text_size_rest" />
+
+            <TextView
+                android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvAppDescription"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_for_image_view"
+                android:textAppearance="@style/CalcResultStyle"
+                android:textSize="@dimen/text_size_rest"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
